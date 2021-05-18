@@ -248,7 +248,7 @@ class Player implements MouseListener,MouseMotionListener{
 			Turret t = guns.get (i);
 			t.moveBullets ();
 			int amt = t.checkCollisions ();
-			money += amt;
+			money += 10 * amt;
 			score += amt;
 		}
 	}

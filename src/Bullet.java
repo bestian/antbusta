@@ -27,7 +27,7 @@ public class Bullet {
     public Bullet(double xp,double yp,double v, double h, double p,Color c) {
     	x_pos = xp;
     	y_pos = yp;
-		velocity = v;
+		velocity = 2 * v;
 		heading = h;
     	power = p;
     	color =c;

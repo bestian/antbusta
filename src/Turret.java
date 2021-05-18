@@ -40,9 +40,9 @@ public class Turret implements Runnable{
     public Turret(double x,double y,double fR,double r,double bS,double bP,Image b,Image gu,AntHill a,MainGame g){
     	x_pos = x;
     	y_pos = y;
-    	fireRate = fR;
-    	range = r;
-    	bulletSpeed = bS;
+    	fireRate = 5 * fR;
+    	range = 2 * r;
+    	bulletSpeed = 2 * bS;
     	bulletPower = bP;
     	base = b;//20X20
     	gun = gu;//20X20
