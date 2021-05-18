@@ -165,7 +165,7 @@ public class MainGame extends JFrame implements Runnable{
 	public void run (){
 		while (true){
 			//while the game isn't over
-			while (antHill.getCakeStolen () < 8){
+			while (antHill.getCakeStolen() < 8 && antHill.getAntsKilled() < 50){
 				if (paused){
 					repaint ();
 					while (paused){
