@@ -44,9 +44,9 @@ public class Ant {
     	name = "Ant";
     	x_pos = x;
     	y_pos = y;
-    	health = 10 * h;
-    	maxHealth = 10 * h;
-    	speed = s * 2;
+    	health = h;
+    	maxHealth = h;
+    	speed = s;
     	antPic2 = new ImageIcon ("resources/Pictures/Ants/ant.png").getImage ();//25X25
     	antPic1 = new ImageIcon ("resources/Pictures/Ants/ant2.png").getImage ();
     	antPic3 = new ImageIcon ("resources/Pictures/Ants/ant3.png").getImage ();
